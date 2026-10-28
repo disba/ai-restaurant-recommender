@@ -1,8 +1,5 @@
 """
 The 5 specialised agents: role, goal and backstory (same idea as the course).
-
-Course had 6 agents. "Food Trend Analyst" and "Food Style Expert" overlapped a
-lot, so they are merged into one "Cuisine & Trend Analyst".
 """
 
 AGENTS = {

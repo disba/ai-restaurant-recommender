@@ -3,7 +3,7 @@
 A local-first Python capstone combining multimodal retrieval, five LangGraph
 agents, real MCP tool calls, and a Gradio interface. Developed from the concepts
 in the Agentic Architecture AI Professional Certificate, with local
-Ollama inference replacing the training environment's watsonx integration.
+Ollama inference.
 
 This is a single-user educational portfolio project, not a production service.
 It does not require a paid inference API or hosted tracing subscription.
@@ -224,30 +224,6 @@ Configuration is centralized in `restaurant_ai/config.py`; model creation lives
 in `restaurant_ai/llm.py`. No IBM credentials are needed.
 For a file-by-file explanation of every module, agent, MCP tool and metric, see
 [docs/PROJECT_STRUCTURE.md](docs/PROJECT_STRUCTURE.md).
-
-## Publishing to your personal GitHub
-
-No repository has been published and no corporate Git identity has been changed.
-Before committing, choose your **personal** identity locally for this repository:
-
-```sh
-git init -b main
-git config --local user.name "Your Personal Name"
-git config --local user.email "your-personal-github-email"
-git status --short
-git add .
-git diff --cached --stat
-git commit -m "Build local-first restaurant recommendation capstone"
-```
-
-Review staged files for data rights and secrets first. Authenticate `gh` with your
-personal account (`gh auth login`, or `gh auth switch` if it is already added)
-and verify with `gh auth status` before creating a repository. Alternatively,
-use a dedicated personal SSH key and host alias rather than replacing your work key.
-Create an empty personal repository, add its remote, and push `main`.
-Original project code is provided under [MIT](LICENSE). Review that choice
-before publishing; third-party models, libraries, and course assets retain
-their respective licenses and are not covered by that license.
 
 ## Troubleshooting
 
