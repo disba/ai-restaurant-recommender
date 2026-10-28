@@ -1,0 +1,55 @@
+[
+  {
+    "id": "szechuan",
+    "request": "Spicy Szechuan food and a recipe to cook at home",
+    "restaurant_keywords": ["szechuan", "sichuan", "mala", "chili"],
+    "recipe_keywords": ["kung pao", "mapo", "szechuan", "sichuan", "spicy"]
+  },
+  {
+    "id": "italian-silver-lake",
+    "request": "Romantic Italian date night in Silver Lake",
+    "restaurant_keywords": ["italian", "pasta", "trattoria", "romantic"],
+    "recipe_keywords": ["pasta", "risotto", "gnocchi", "italian", "pizza", "spaghetti", "ziti"],
+    "expected_location": "Silver Lake"
+  },
+  {
+    "id": "cheap-tacos",
+    "request": "Cheap and cheerful Mexican tacos, nothing expensive",
+    "restaurant_keywords": ["taco", "mexican"],
+    "recipe_keywords": ["taco", "tostada", "nachos", "salsa", "mexican", "chili"],
+    "expected_max_price": 2
+  },
+  {
+    "id": "ramen",
+    "request": "A cozy bowl of Japanese ramen on a rainy evening",
+    "restaurant_keywords": ["ramen", "japanese", "noodle"],
+    "recipe_keywords": ["ramen", "japanese", "miso", "noodle"]
+  },
+  {
+    "id": "vegan",
+    "request": "Healthy vegan dinner, I don't eat any animal products",
+    "restaurant_keywords": ["vegan", "plant", "vegetarian", "vegetable"],
+    "recipe_keywords": ["tofu", "chickpea", "lentil", "vegetable", "salad", "dal", "hummus", "falafel", "quinoa"],
+    "expected_diet": "vegan"
+  },
+  {
+    "id": "seafood-beach",
+    "request": "Fresh seafood with an ocean view in Malibu",
+    "restaurant_keywords": ["seafood", "fish", "oyster", "ocean", "coastal"],
+    "recipe_keywords": ["salmon", "shrimp", "cod", "tuna", "ceviche", "fish", "seafood"],
+    "expected_location": "Malibu"
+  },
+  {
+    "id": "indian-curry",
+    "request": "Rich Indian curry and fresh naan",
+    "restaurant_keywords": ["indian", "curry", "tandoor", "masala"],
+    "recipe_keywords": ["masala", "curry", "naan", "dal", "paneer", "butter chicken", "indian"]
+  },
+  {
+    "id": "korean-bbq",
+    "request": "Korean BBQ night with friends in Koreatown",
+    "restaurant_keywords": ["korean", "bbq", "barbecue", "kimchi"],
+    "recipe_keywords": ["bulgogi", "korean", "beef"],
+    "expected_location": "Koreatown"
+  }
+]

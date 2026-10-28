@@ -1,0 +1,37 @@
+# ---- LLMs (local Ollama + optional cloud OpenAI-compatible) ----
+langchain-core~=1.7.0
+langchain-ollama~=1.1.0
+langchain-openai~=1.7.2
+
+# ---- Agents (Module 3) ----
+langgraph~=1.2.18
+
+# ---- MCP server/client (Module 4) ----
+mcp~=1.30.0
+langchain-mcp-adapters~=0.3.2
+
+# ---- Multimodal RAG (Module 2) ----
+chromadb~=1.5.9
+sentence-transformers~=6.2.0
+transformers~=5.21.0
+torch~=2.14.1
+pillow~=12.3.0
+numpy~=2.5.4
+
+# ---- Data / utils (Module 1) ----
+pydantic~=2.14.1
+python-dotenv~=1.2.4
+requests~=2.34.2
+
+# ---- UI ----
+gradio~=6.30.0
+
+# ---- Observability (local, open-source) ----
+arize-phoenix~=20.6.0
+arize-phoenix-otel~=0.17.2
+openinference-instrumentation-langchain~=0.1.80
+
+# ---- Dev / demo ----
+pytest~=9.1.1
+ipykernel~=7.4.0
+nbformat>=5.10,<6
